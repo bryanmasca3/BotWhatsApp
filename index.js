@@ -23,9 +23,7 @@ function initBot() {
 function startBot(_client) {
 	dateLog('Starting bot')
 	client = _client
-
-	//	restart bot every 20 minutos
-	//	stops working otherwise
+	
 	setTimeout(() => {
 		//	close bot
 		client.close()
